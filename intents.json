@@ -1,0 +1,105 @@
+{
+    "intents": [
+        {
+            "tag": "phishing",
+            "patterns": [
+                "What is phishing?",
+                "Explain phishing",
+                "What are phishing attacks?",
+                "How can I identify phishing?",
+                "How can I protect myself from phishing?"
+            ],
+            "response": "Phishing is a cyber attack where an attacker pretends to be a trusted person or organization to trick users into revealing sensitive information such as passwords, OTPs or banking details."
+        },
+        {
+            "tag": "password",
+            "patterns": [
+                "How can I create a strong password?",
+                "What is a strong password?",
+                "How should I protect my password?",
+                "Tell me about password security"
+            ],
+            "response": "Use a long and unique password, avoid easily guessed information, do not reuse passwords across important accounts, and consider using a password manager."
+        },
+        {
+            "tag": "malware",
+            "patterns": [
+                "What is malware?",
+                "Explain malware",
+                "What are malicious programs?",
+                "How does malware work?"
+            ],
+            "response": "Malware is malicious software designed to damage systems, steal information, disrupt operations or gain unauthorized access. Examples include viruses, worms, trojans and spyware."
+        },
+        {
+            "tag": "ransomware",
+            "patterns": [
+                "What is ransomware?",
+                "Explain ransomware",
+                "How does ransomware work?",
+                "How can I protect against ransomware?"
+            ],
+            "response": "Ransomware is malware that can make files or systems inaccessible and may demand payment from the victim. Regular backups, security updates and caution with suspicious links and attachments can reduce risk."
+        },
+        {
+            "tag": "identity_theft",
+            "patterns": [
+                "What is identity theft?",
+                "Explain identity theft",
+                "How can identity theft happen?",
+                "How can I protect my identity?"
+            ],
+            "response": "Identity theft occurs when someone uses another person's personal information without authorization. Protect personal information, use strong passwords, enable multi-factor authentication and monitor accounts for suspicious activity."
+        },
+        {
+            "tag": "ddos",
+            "patterns": [
+                "What is DDoS?",
+                "Explain DDoS attack",
+                "What is a distributed denial of service attack?",
+                "How does a DDoS attack work?"
+            ],
+            "response": "A DDoS attack attempts to overwhelm a service or network with a large amount of traffic, making the service difficult or impossible for legitimate users to access."
+        },
+        {
+            "tag": "social_engineering",
+            "patterns": [
+                "What is social engineering?",
+                "Explain social engineering",
+                "How do social engineering attacks work?",
+                "What is social engineering in cybersecurity?"
+            ],
+            "response": "Social engineering involves manipulating people into revealing information or performing actions that compromise security. Attackers may use deception, impersonation or urgency."
+        },
+        {
+            "tag": "credit_card_fraud",
+            "patterns": [
+                "What is credit card fraud?",
+                "Explain credit card fraud",
+                "How can I protect my credit card?",
+                "What should I do about suspicious card transactions?"
+            ],
+            "response": "Credit card fraud involves unauthorized use of card information or accounts. Avoid sharing card details, use secure websites, monitor transactions and report suspicious activity to your bank or card provider."
+        },
+        {
+            "tag": "safe_browsing",
+            "patterns": [
+                "How can I browse safely?",
+                "What is safe browsing?",
+                "How can I stay safe online?",
+                "Give me internet safety tips"
+            ],
+            "response": "Keep your browser and operating system updated, use HTTPS websites, avoid suspicious links and downloads, use strong passwords and enable multi-factor authentication."
+        },
+        {
+            "tag": "two_factor_authentication",
+            "patterns": [
+                "What is two factor authentication?",
+                "What is 2FA?",
+                "Explain multi factor authentication",
+                "Why should I use 2FA?"
+            ],
+            "response": "Two-factor authentication adds another verification step after the password. It can use methods such as an authenticator app, security key or one-time code."
+        }
+    ]
+}
